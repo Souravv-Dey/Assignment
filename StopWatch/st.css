@@ -1,0 +1,74 @@
+* {
+    font-family: serif;
+    margin: 0;
+    background-color: rgb(192, 223, 14);
+    transition: all 100ms;
+}
+
+header {
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(20, 126, 158);
+    color: black;
+    font-weight: 500;
+    /* Make Header sticky in top */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    /* For the size of the block */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+
+div {
+    display: block;
+}
+
+.timer {
+    padding: 15px;
+    font-size: 40px;
+    font-weight: 500;
+    background-color: rgb(12, 226, 94);
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.showTime {
+    background-color:rgb(12, 226, 94);
+}
+
+
+.btn button {
+    margin: 20px;
+    height: 50px;
+    width: 70px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(12, 226, 94);
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    transform: scale(0.95);
+}
+
+button:disabled {
+    color: rgb(128, 13, 13);
+    background-color: rgb(12, 226, 94);
+    transform: none;
+}
+
+
+
